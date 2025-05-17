@@ -11,7 +11,7 @@
   will-change: filter;
   transition: filter 300ms;
   animation: logo-spin infinite 40.96s linear;
-  filter: drop-shadow(0 0 1em #555);
+  filter: drop-shadow(0 0 1.5em #888);
 }
 
 @keyframes logo-spin {
@@ -25,7 +25,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .logo:hover {
-    filter: drop-shadow(0 0 1.5em #aaa);
+    filter: drop-shadow(0 0 1.5em #ccc);
   }
 }
 
