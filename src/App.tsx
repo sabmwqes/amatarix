@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+// Project: amatarix
+import logo from './assets/amatarix.svg'
 import './App.css'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
         Amatar<span className="red">ix</span>
       </h1>
       <h3>Under construction</h3>
-      <img src={reactLogo} className="logo" alt="React logo" />
+      <img src={logo} className="logo" alt="amatarix logo" />
     </>
   )
 }
